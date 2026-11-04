@@ -1,0 +1,10 @@
+llm:
+    provider: google
+    google:
+        model: gemini-3.5-flash
+    openai:
+        model: gpt-5-mini
+        api_endpoint: /v1/chat/completions
+n_samples: 30000
+augmentation_iteration_max: 1
+agent_max_steps: 4
